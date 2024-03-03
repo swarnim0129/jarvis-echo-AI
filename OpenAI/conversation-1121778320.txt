@@ -1,0 +1,30 @@
+OpenAI response for Prompt:- write a letter to principal for leave using Ok 
+
+Sure, I can help you draft a letter to the principal requesting for leave. Here's an example:
+
+[Your Name]
+[Your Address]
+[City, State, Zip Code]
+[Email Address]
+[Today’s Date]
+
+[Principal's Name]
+[School Name]
+[School Address]
+[City, State, Zip Code]
+
+Subject: Request for Leave
+
+Dear [Principal's Name],
+
+I hope this letter finds you in good health and high spirits. I am writing to inform you that I will not be able to attend school on [date(s)] due to [reason for leave].
+
+I understand the importance of regular attendance and I regret that I am unable to be present at school. However, I assure you that I have taken all necessary measures to ensure that my absence will not disrupt the learning process. I have coordinated with my teachers to catch up on any missed work and I will submit all assignments and complete any outstanding work upon my return.
+
+I would also like to take this opportunity to express my gratitude for your understanding and support. I appreciate your attention to this matter and I look forward to your positive response.
+
+Thank you for your time and consideration.
+
+Sincerely,
+
+[Your Name]
