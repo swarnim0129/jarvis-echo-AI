@@ -1,0 +1,21 @@
+OpenAI response for Prompt:- using artificial intelligence give me information on World Health Organisation 
+
+The World Health Organization (WHO) is a specialized agency of the United Nations responsible for global public health. It was established on April 7, 1948, and its headquarters are located in Geneva, Switzerland.
+
+WHO's primary goal is the attainment of the highest possible level of health for all people. It works to achieve this goal through its four strategic objectives:
+
+1. Promoting health through the life-course, from pregnancy to healthy aging.
+2. Protecting people from health emergencies, including epidemics and disasters.
+3. Providing people with the information and tools they need to make healthy choices and live healthy lives.
+4. Fostering global collaboration on key health issues, including the development and distribution of vaccines and other essential medicines.
+
+WHO's work is guided by its 194 member states, and it is supported by a staff of approximately 7,000 people working in 150 countries.
+
+Artificial intelligence (AI) has the potential to significantly enhance WHO's ability to achieve its strategic objectives. For example, AI can be used to:
+
+1. Improve disease surveillance and early warning systems: AI algorithms can analyze large amounts of data from various sources, including electronic health records, social media, and environmental sensors, to detect outbreaks of infectious diseases earlier and more accurately.
+2. Enhance diagnostic accuracy: AI-powered diagnostic tools can analyze medical images, genetic data, and other clinical information to help doctors make more accurate diagnoses and treatment decisions.
+3. Optimize health care delivery: AI can be used to optimize the allocation of resources, such as hospital beds and medical equipment, to ensure that they are used efficiently and effectively.
+4. Develop new treatments and vaccines: AI can be used to analyze large datasets of genetic and clinical data to identify new drug targets and develop more effective vaccines.
+
+WHO recognizes the potential of AI to transform global health and has established a working group on AI to explore how it can be used to improve health outcomes. The organization has also developed a set of ethical guidelines for the use of AI in health care, which emphasize the importance of transparency, accountability, and privacy.

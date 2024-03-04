@@ -1,0 +1,19 @@
+OpenAI response for Prompt:- give me information about W H O using artificial intelligence 
+
+The World Health Organization (WHO) is actively exploring the use of artificial intelligence (AI) to improve global health outcomes.
+
+WHO has established the "Artificial Intelligence for Health" project to explore the potential of AI to help achieve universal health coverage and the Sustainable Development Goals. The project aims to:
+
+1. Identify and promote ethical and safe use of AI in health.
+2. Develop guidance and tools for the development, validation, and implementation of AI in health.
+3. Foster international collaboration and knowledge sharing on AI in health.
+
+WHO has also developed a "Global Strategy on Digital Health" which includes a focus on AI and its potential to improve health outcomes.
+
+In addition, WHO has established partnerships with technology companies, such as Microsoft and Google, to explore the use of AI in disease surveillance, outbreak prediction, and health system strengthening.
+
+WHO is also using AI to analyze large volumes of data for disease surveillance and outbreak prediction. For example, WHO is using AI algorithms to analyze social media data to detect early signs of disease outbreaks.
+
+WHO is also using AI to improve health system efficiency and effectiveness. For example, WHO is using AI to analyze electronic health records to identify patterns and trends in patient care, which can help inform decisions about resource allocation and health policy.
+
+Overall, WHO recognizes the potential of AI to transform the health sector and is taking a proactive approach to exploring and promoting the safe and ethical use of AI in health.

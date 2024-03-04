@@ -7,6 +7,35 @@ import random
 from gtts import gTTS 
 
 
+chatStr=""
+def chat(query):
+    global chatStr
+    client = Groq(
+        api_key=os.environ.get("GROQ_API_KEY")
+    )
+    text = f"OpenAI response for Prompt:- {query} \n\n"
+    chatStr += f"Swarnim: {query}\n Echo: "
+    # print(chatStr)
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": chatStr,
+            }
+        ],
+        model="mixtral-8x7b-32768",
+        temperature=0.5,
+        max_tokens=1024,
+        top_p=1,
+        stream=False,
+        stop=None,
+    )
+    # Extract the response from the 'choices' list
+    chatStr += f"{chat_completion.choices[0].message.content}\n"
+    print(chatStr)
+    say(chat_completion.choices[0].message.content)
+    return chat_completion.choices[0].message.content
+
 def ai(prompt):
     client = Groq(
         api_key=os.environ.get("GROQ_API_KEY")
@@ -28,54 +57,34 @@ def ai(prompt):
         stop=None,
     )
     # Extract the response from the 'choices' list
-    response = chat_completion.choices[0].message.content
-    text += response
+    text += chat_completion.choices[0].message.content
+
+
     
-    if not os.path.exists("OpenAI"):
-        os.mkdir("OpenAI")
-        # file_path = f"OpenAI/prompt-{random.randint(1, 2434453245)}.txt"
-        file_name = f"OpenAI/conversation-{random.randint(1, 2434453245)}.txt"
-        with open(file_name, "w") as f:
-            f.write(text)
-            print("File created")
+    if not os.path.exists("Openai"):
+        os.mkdir("Openai")
 
-        with open(file_name, "r") as f:
-            file_content = f.read()
-            
-            print(f"File content: {file_content}")
-            # say(file_content)
-            say_from_file(file_name)
-
-    else:
-        file_name = f"OpenAI/conversation-{random.randint(1, 2434453245)}.txt"
-        with open(file_name, "w") as f:
-            f.write(text)
-            print("File created")
-
-        with open(file_name, "r") as f:
-            file_content = f.read()
-            
-            print(f"File content: {file_content}")
-            # say(file_content)
-            say_from_file(file_name)
+    # with open(f"Openai/prompt- {random.randint(1, 2343434356)}", "w") as f:
+    with open(f"Openai/{''.join(prompt.split('intelligence')[1:]).strip() }.txt", "w") as f:
+        f.write(text)
+             
+    file_path=f"Openai/{''.join(prompt.split('intelligence')[1:]).strip() }.txt"
+    with open(file_path, "r") as file:
+        content = file.read()
+        print(content)
 
 
 
-def say_from_file(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, "r") as file:
-            content = file.read()
-            say(content)
-    else:
-        print(f"File not found: {file_path}")
-
+# def say_from_file(file_path):
+#     if os.path.exists(file_path):
+#         with open(file_path, "r") as file:
+#             content = file.read()
+#             say(content)
+#     else:
+#         print(f"File not found: {file_path}")
 
 def say(text):
-    tts = gTTS(text)
-    tts.save("temp.mp3")
-    os.system("afplay temp.mp3")
-    os.remove("temp.mp3")
-
+    os.system(f'say "{text}"')
 
 
 def takeCommand():
@@ -83,8 +92,8 @@ def takeCommand():
     with sr.Microphone() as source:
         audio=r.listen(source)
         try:
-            query=r.recognize_google(audio,language="en-in")
-            print(f"User said: {query}")
+            query=r.recognize_google(audio,language="en-uk")
+            # print(f"User said: {query}")
             return query
         except Exception as e:
             return "Some Error Occured, Sorry from Echo" 
@@ -131,10 +140,14 @@ if __name__ == '__main__':
             # Use subprocess.run to play music using the default player
             subprocess.run(["open", music_path], check=True)
 
-        if "open facetime".lower() in query.lower():
+        elif "open facetime".lower() in query.lower():
             os.system("open /System/Applications/FaceTime.app")
 
 
-        if "Using ok".lower() in query.lower():
-            ai(prompt=query) 
+        elif "Using artificial intelligence".lower() in query.lower():
+            ai(prompt=query)
+
+        else:
+            print("Chatting...")
+            chat(query)
 

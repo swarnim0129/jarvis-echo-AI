@@ -1,0 +1,13 @@
+OpenAI response for Prompt:- using artificial intelligence write information on World Health Organisation 
+
+The World Health Organization (WHO) is a specialized agency of the United Nations responsible for global public health. It was established on April 7, 1948, and has its headquarters in Geneva, Switzerland. The organization's mission is to promote health, keep the world safe, and serve the vulnerable, with the goal of ensuring that a billion more people have universal health coverage, to protect a billion more people from health emergencies, and to provide a billion more people with better health and well-being.
+
+WHO's work is focused on a wide range of areas, including communicable diseases, noncommunicable diseases, environmental and social determinants of health, health systems, and emergency response. The organization plays a leading role in the international response to health emergencies, such as the COVID-19 pandemic, Ebola outbreaks, and natural disasters.
+
+WHO is governed by its 194 member states through the World Health Assembly, which meets in Geneva each May. The organization's work is funded by contributions from member states, as well as from private organizations and individuals.
+
+Artificial Intelligence (AI) is increasingly being used in the field of public health and has the potential to greatly improve the work of organizations like WHO. AI can be used to analyze large amounts of data quickly and accurately, helping to identify trends and patterns that might otherwise go unnoticed. This can be particularly useful in areas such as disease surveillance and outbreak prediction, where early detection and response can save lives. Additionally, AI can also be used to develop new treatments and therapies, and to personalize healthcare to individual patients' needs.
+
+WHO recognizes the potential of AI and has established the "Artificial Intelligence for Health" project to explore how AI can be used to improve global health. The project aims to bring together experts from a variety of fields, including computer science, public health, and policy-making, to develop and implement AI solutions that address pressing global health challenges.
+
+In summary, WHO is an international organization that works to promote health and prevent disease worldwide. Artificial Intelligence is being increasingly used in the field of public health and has the potential to greatly improve the work of organizations like WHO by analyzing large amounts of data quickly and accurately, identifying trends and patterns, and developing new treatments and therapies. WHO has recognized the potential of AI and has established the "Artificial Intelligence for Health" project to explore how AI can be used to improve global health.
