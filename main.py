@@ -147,6 +147,13 @@ if __name__ == '__main__':
         elif "Using artificial intelligence".lower() in query.lower():
             ai(prompt=query)
 
+        elif "quit ".lower() in query.lower():
+            say("Goodbye Sir...")
+            exit()
+
+        elif "reset chat".lower() in query.lower():
+            chatStr=""
+
         else:
             print("Chatting...")
             chat(query)
