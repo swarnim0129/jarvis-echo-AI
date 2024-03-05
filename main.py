@@ -32,7 +32,15 @@ def chat(query):
     )
     # Extract the response from the 'choices' list
     chatStr += f"{chat_completion.choices[0].message.content}\n"
+
+    if not os.path.exists("Direct_Resp"):
+        os.mkdir("Direct_Resp")
+
+    # with open(f"Openai/prompt- {random.randint(1, 2343434356)}", "w") as f:
+
     print(chatStr)
+    with open(f"Direct_Resp/prompt- {random.randint(1, 2343434356)}", "w") as f:
+        f.write(chatStr)
     say(chat_completion.choices[0].message.content)
     return chat_completion.choices[0].message.content
 
